@@ -1,0 +1,10 @@
+[project]
+name = "ex-basics-2"
+version = "0.2"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=14.0.0",
+]
+

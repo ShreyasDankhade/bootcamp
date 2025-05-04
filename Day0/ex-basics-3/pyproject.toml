@@ -1,0 +1,13 @@
+[project]
+name = "shreyas-hello"
+version = "0.1"
+description = "ex-basics-3 -> Command Line Application using "
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "rich>=14.0.0",
+    "typer>=0.15.3",
+]
+
+[project.scripts]
+shreyas-cli = "shreyas_hello.cli:app"
