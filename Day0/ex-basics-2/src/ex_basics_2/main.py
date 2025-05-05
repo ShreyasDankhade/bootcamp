@@ -7,7 +7,7 @@ console = Console(theme=theme)
 
 def main():
     parser = argparse.ArgumentParser(
-        prog="shreyas-hello",
+        prog="ex-basics-2",
         description="Prints a friendly, rich-formatted greeting"
     )
     parser.add_argument(

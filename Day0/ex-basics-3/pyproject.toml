@@ -1,7 +1,7 @@
 [project]
-name = "shreyas-hello"
+name = "ex-basics-3"
 version = "0.1"
-description = "ex-basics-3 -> Command Line Application using "
+description = "ex-basics-3 -> Command Line Calculator Application using Typer and Rich (for colored output)"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
@@ -10,4 +10,4 @@ dependencies = [
 ]
 
 [project.scripts]
-shreyas-cli = "shreyas_hello.cli:app"
+calc-cli = "ex_basics_3.main:app"

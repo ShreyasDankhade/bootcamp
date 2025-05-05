@@ -1,6 +1,6 @@
 [project]
 name = "shreyas-hello"
-version = "0.1"
+version = "1.1"
 description = "ex-basics-1 -> Print hello to the argument passed or world, by default."
 readme = "README.md"
 requires-python = ">=3.9"
