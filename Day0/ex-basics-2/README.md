@@ -37,12 +37,9 @@ bootcamp/
 
 ## 📦 Installation (from TestPyPI)
 
-```bash
-uv pip install rich
-```
 
 ```bash
-uv pip install -i https://test.pypi.org/simple/ ex-basics-2
+uv pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple ex-basics-2==0.1
 ```
 
 ---

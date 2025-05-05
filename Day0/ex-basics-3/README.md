@@ -51,11 +51,7 @@ bootcamp/
 ## 📦 Installation (from TestPyPI)
 
 ```bash
-uv pip install typer rich
-```
-
-```bash
-uv pip install -i https://test.pypi.org/simple/ ex-basics-3
+uv pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple ex-basics-3==0.1
 ```
 ---
 
@@ -76,6 +72,12 @@ calc-cli div 5 0        # Error: Division by zero
 ```
 
 *All results are printed with Rich styling.*
+
+---
+
+## Usage Recording
+
+[![asciicast](https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3.svg)](https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3)
 
 ---
 
