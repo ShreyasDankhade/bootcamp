@@ -79,6 +79,10 @@ calc-cli div 5 0        # Error: Division by zero
 
 ---
 
+## Usage Recording
+
+<a href="https://asciinema.org/a/2IHEwHKrpGhkoQ8n5r4G2DdSE" target="_blank"><img src="https://asciinema.org/a/2IHEwHKrpGhkoQ8n5r4G2DdSE.svg" /></a>
+
 ## 🔗 TestPyPI Package Link
 
 https://test.pypi.org/project/ex-basics-3/
