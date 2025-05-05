@@ -77,7 +77,9 @@ calc-cli div 5 0        # Error: Division by zero
 
 ## Usage Recording
 
-<a href="https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3" target="_blank"><img src="https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3.svg" /></a>
+[![asciicast](https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3.svg)](https://asciinema.org/a/vORzVy8kIaTc2jaDrUOqMYoc3)
+
+---
 
 ## 🔗 TestPyPI Package Link
 
