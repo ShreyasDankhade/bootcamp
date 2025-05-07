@@ -1,0 +1,18 @@
+[project]
+name = "mypkg"
+version = "0.1.0"
+description = "Packaging with pyproject.toml"
+authors = [{name = "Shreyas Dankhade", email = "shreyasdankhade75@gmail.com"}]
+dependencies = []  # List of required dependencies
+readme = "README.md"
+repository = "https://github.com/ShreyasDankhade/mypkg"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=40.8.0", "wheel", "setuptools_scm"]
+
+[project.scripts]
+mytool = "mypkg.cli:main"
+
+[tool.setuptools.package-data]
+mypkg = ["config/*.yml"]
