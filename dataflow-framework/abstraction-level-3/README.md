@@ -39,7 +39,7 @@ abstraction-level-3/
 Install with:
 
 ```bash
-pip install typer pyyaml
+uv pip install typer pyyaml
 ```
 
 ## 🚀 Quick Start

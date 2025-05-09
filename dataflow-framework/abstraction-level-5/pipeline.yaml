@@ -1,0 +1,32 @@
+nodes:
+  trim:
+    processor: processors.trimming.trim
+    outputs:
+      default: tag
+
+  tag:
+    processor: processors.tagging.tag_error_warn
+    outputs:
+      error: error_branch
+      warning: warning_branch
+      default: general_branch
+
+  error_branch:
+    processor: processors.archive_error.archive_error
+    outputs:
+      default: error_count
+
+  warning_branch:
+    processor: processors.tally_warning.WarningTally
+    outputs:
+      default: end
+
+  error_count:
+    processor: processors.error_tally.ErrorTally
+    outputs:
+      default: end
+
+  general_branch:
+    processor: processors.format_general.format_general
+    outputs:
+      default: end

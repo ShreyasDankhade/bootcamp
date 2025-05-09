@@ -1,0 +1,6 @@
+                 2025-05-09 10:00:00 INFO Application started
+2025-05-09 10:01:00 WARN Disk space low
+2025-05-09 10:02:00                          ERROR Failed to connect to DB
+2025-05-09 10:03:00 INFO                  Received request
+2025-05-09 10:04:00 WARN High                                  memory usage
+                            2025-05-09 10:05:00 ERROR Timeout                                           occurred
