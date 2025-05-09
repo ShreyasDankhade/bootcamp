@@ -18,7 +18,7 @@ def main(
     input: Path = typer.Option(..., exists=True, readable=True, help="Path to input file"),
     output: Optional[Path] = typer.Option(None, help="Path to output file (defaults to stdout)"),
     mode: str = typer.Option(
-        os.getenv('MODE', 'uppercase'),
+        os.getenv('MODE'),
         help="Processing mode: 'uppercase' or 'snakecase'"
     ),
 ):

@@ -10,7 +10,7 @@ abstraction-level-2/
 ├── cli.py          # Handles CLI via typer
 ├── core.py         # Applies a list of processors to each line
 ├── pipeline.py     # Assembles the processor list based on mode
-└── types.py        # Defines ProcessorFn types
+└── typess.py        # Defines ProcessorFn types
 ```
 - Define a common function signature for processor
   - Implement these processors in core.py:

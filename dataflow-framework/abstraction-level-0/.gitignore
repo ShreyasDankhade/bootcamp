@@ -4,4 +4,3 @@
 .python-version
 uv.lock
 __pycache__
-.toml

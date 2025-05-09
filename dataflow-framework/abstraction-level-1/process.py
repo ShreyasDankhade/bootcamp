@@ -6,7 +6,9 @@ import typer
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+env_file = Path('.env')
+if env_file.exists():
+    load_dotenv(dotenv_path=env_file)
 
 def read_lines(path: Path) -> Iterator[str]:
     """Reads text-file from the given file path."""
@@ -45,7 +47,7 @@ def main(
     input: Path = typer.Option(..., exists=True, readable=True, help="Path to input file"),
     output: Optional[Path] = typer.Option(None, help="Path to output file; defaults to stdout"),
     mode: str = typer.Option(
-        os.getenv("MODE", "uppercase"),
+        os.getenv("MODE"),
         help="Processing mode: 'uppercase' or 'snakecase'",
     ),
 ):

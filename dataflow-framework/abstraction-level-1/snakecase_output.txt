@@ -1,1 +1,0 @@
-this_should_print_according_to_the_mode_(snake_case_or_uppercase)
